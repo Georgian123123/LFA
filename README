@@ -1,0 +1,20 @@
+TEMA LFA @ComanaMarianGeorgian 331CA
+
+Pentru aceasta tema am folosit ca limbaj de programare JAVA deoarece
+m-a ajutat mai mult decat alte limbaje pentru parsarea de stringuri 
+ca input si prelucrea lor.
+
+===============================================================================
+Ideea de implementare este simpla, citesc inputul drept string, apoi il sparg
+in bucati de cate 4. Cu ajutorul unui map codific fiecare bucatica de cate 4
+litere si o sa le retin intr-un vector. Mai apoi, am un hashmap care are codifi
+cate absolut toate operatiile pe stiva. Mai pe scurt, dupa ce decodific toate
+gruparile de 4 simboluri o sa am toate operatiile in ordine pe care va trebui
+sa le aplic.
+Inainte de toate veriric erorile de sintaxa specificate ca in enunt. Printre
+toate, singurul lucru care ar merita sa fie mentionat din erorile de sintaxa
+este ca am folosit algoritmul de paranteze valide pentru a vedea daca inputul
+este transmis corect.
+Fiecare operatie face exact ce se cere in enunt. La fiecare operatie verific
+conditiile de validare.
+Am folosit chiar un stack pe care aplic toate aceste operatiile.
